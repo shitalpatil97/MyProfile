@@ -1,54 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>My Profile</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
-        <style>
-          #hed_col {
-            color: red;
-            background-color: palegoldenrod;
-            text-transform:uppercase;
-           
 
-          }
-          a{
-            text-decoration: none;
-            color: red;
-            font-family: 'Bungee Spice', cursive;
-          }
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>My Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  <style>
+    #hed_col {
+      color: red;
+      background-color: palegoldenrod;
+      text-transform: uppercase;
+
+
+    }
+
+    a {
+      text-decoration: none;
+      color: red;
+      font-family: 'Bungee Spice', cursive;
+    }
+
+    .footer_1 a {
+      margin-right: 30px;
+      color: rgb(189, 43, 226);
+
+    }
+
+    #spans {
+      margin-right: 10px;
+      font-weight: bold;
+
+    }
+
+    header p i {
+      margin-right: 10px;
+      font-weight: bold;
+      color: black;
       
-        </style>
-    </head>
-    <body style="background-color:powderblue;">
-        <header style="background-color: wheat; text-align: right;" >
-            <p style="color:blue;"><strong><i class="fa fa-user" aria-hidden="true"></i>Shital Patil</strong>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-mobile" aria-hidden="true"></i><strong>1234567890</strong>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i><strong>Email ID</strong></p>
-        </header>   
-      <nav id="hed_col">
-        <a href="home.html" target="my_frame"><strong>HOME</strong></a>&nbsp;&nbsp;
-        <a href="techStack.html" target="my_frame"><strong>TECH STACK</strong></a>&nbsp;&nbsp;
-        <a href="education.html" target="my_frame"><strong>EDUCATION</strong></a>&nbsp;&nbsp;
-        <a href="project.html" target="my_frame"><strong>PROJECT</strong></a>&nbsp;&nbsp;
-        <a href="hobbies.html" target="my_frame"><strong>HOBBIES</strong></a>&nbsp;&nbsp;
-        <a href="personalDetails.html" target="my_frame"><strong>PERSONAL DETAILS</strong></a>&nbsp;&nbsp;
-        <a href="others.html" target="my_frame"><strong>OTHERS</strong></a>
-      </nav>
-      <iframe name="my_frame" width="800" height="500" style="background-color: white;">
+    }
+    #sp_1{
+      margin-right: 20px;
+      font-style: italic;
+      font-weight: bold;
+      color:red;
+    } 
+  </style>
+</head>
 
-      </iframe>
-      <footer>
-        <span>
-            <label style="color:rgb(211, 12, 242);"><strong>FOLLOW US:</strong></label>
-            <a href="https://www.facebook.com/" style="color: black ;"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="https://in.linkedin.com/" style="color: black ;"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a href="https://www.google.com/" style="color: black ;"><i class="fa fa-google" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/" style="color: black ;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<body style="background-color:powderblue;">
+  <header style="background-color: wheat; text-align: right;">
+    <p><i class="fa fa-user" aria-hidden="true"></i><span id="sp_1">Shital
+      Patil</span id="sp_1"></strong><i class="fa fa-mobile" aria-hidden="true"></i><span id="sp_1">1234567890</span><i
+        class="fa fa-envelope" aria-hidden="true"></i><span id="sp_1">Email ID</span></p>
+  </header>
+  <nav id="hed_col">
+    <a href="home.html" target="my_frame"><strong>HOME</strong></a>&nbsp;&nbsp;
+    <a href="techStack.html" target="my_frame"><strong>TECH STACK</strong></a>&nbsp;&nbsp;
+    <a href="education.html" target="my_frame"><strong>EDUCATION</strong></a>&nbsp;&nbsp;
+    <a href="project.html" target="my_frame"><strong>PROJECT</strong></a>&nbsp;&nbsp;
+    <a href="hobbies.html" target="my_frame"><strong>HOBBIES</strong></a>&nbsp;&nbsp;
+    <a href="personalDetails.html" target="my_frame"><strong>PERSONAL DETAILS</strong></a>&nbsp;&nbsp;
+    <a href="others.html" target="my_frame"><strong>OTHERS</strong></a>
+  </nav>
+  <iframe name="my_frame" width="800" height="500" style="background-color: white;">
 
-        </span>
-        
-      </footer>
-    
-    </body>
+  </iframe>
+  <footer>
+    <span class="footer_1">
+      <span id="spans">FOLLOW US</span>
+      <!-- <label style="color:rgb(211, 12, 242);"><strong>FOLLOW US:</strong></label>  -->
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="https://in.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+    </span>
+
+  </footer>
+
+</body>
+
 </html>
