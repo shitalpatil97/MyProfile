@@ -6,13 +6,33 @@
             label{
                 color: brown;
             }
-            
+            input[type="text"]{
+            color: rgb(165, 72, 72);
+            background: bisque;
+            width: 180px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            box-shadow: 5px 2px 5px black;
+        }
+        input[type="submit"]{
+            background: rgb(162, 227, 229);
+            color:rgb(165, 72, 72);
+            width: 100px;
+            border-radius: 20px;
+            height: 30px;
+        }
+        input[type="submit"]:hover{
+            background-color: bisque;
+        } 
+
+
         </style>
     </head>
     <body>
         <form>
+            <fieldset>
             <table>
-                <h2>Personal Details</h2>
+                <legend>Personal Details</legend>
                 <tbody>
                     <tr>
                         <td><label>Full Name</label></td>
@@ -80,10 +100,11 @@
                         <td><textarea rows="7"></textarea></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" style="color:rgb(226, 8, 222);background-color: bisque;" ></td>
-                        <td><input type="reset" style="color:rgb(226, 8, 222);background-color: bisque;"></td>
+                        <td><input type="submit"></td>
+                        <td><input type="reset"></td>
                     </tr>
                 </tbody>
+            </fieldset>
             </table>
         </form>
     </body>
