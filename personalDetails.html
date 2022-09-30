@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <style>
-            label{
-                color: brown;
-            }
-            input[type="text"]{
-            color: rgb(165, 72, 72);
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Courgette&family=Dancing+Script&family=Pacifico&family=Poppins:ital@0;1&family=Sofia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&display=swap" rel="stylesheet">
+    <title></title>
+    <style>
+        label {
+            color: lightskyblue;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        legend {
+            font-family: 'Bungee Spice', cursive;
+            font-family: 'Pacifico', cursive;
+        }
+
+        #id1 input[type="text"] {
+            color: purple;
             background: bisque;
-            width: 180px;
+            /* width: 180px; */
             text-transform: uppercase;
-            border-radius: 10px;
+            /* border-radius: 10px; */
             box-shadow: 5px 2px 5px black;
         }
-        input[type="submit"]{
+
+        input[type="submit"] {
             background: rgb(162, 227, 229);
-            color:rgb(165, 72, 72);
+            color: rgb(165, 72, 72);
             width: 100px;
             border-radius: 20px;
             height: 30px;
         }
-        input[type="submit"]:hover{
+
+        input[type="submit"]:hover {
             background-color: bisque;
-        } 
+        }
+
+        input[type="reset"] {
+            background-color: rgb(162, 227, 229);
+            color: rgb(165, 72, 72);
+            width: 100px;
+            border-radius: 20px;
+            height: 30px;
 
 
-        </style>
-    </head>
-    <body>
-        <form>
-            <fieldset>
+        }
+
+        input[type="reset"]:hover {
+            background-color: bisque;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset style="background-color:grey;">
             <table>
                 <legend>Personal Details</legend>
                 <tbody>
                     <tr>
                         <td><label>Full Name</label></td>
-                        <td><input type="text" maxlength="20"></td>
+                        <td id="id1"><input type="text" maxlength="20"></td>
                     </tr>
                     <tr>
                         <td><label>Email Address</label></td>
@@ -76,8 +105,8 @@
                         <td><input type="checkbox"><label>Python</label></td>
                         <td><input type="checkbox"><label>Java</label></td>
                         <td><input type="checkbox"><label>Jenkin</label></td>
-                        <td><input type="checkbox"><label>GIT</label></td>
-                        <td><input type="checkbox"><label>Database</label></td>
+                        <!-- <td><input type="checkbox"><label>GIT</label></td>
+                        <td><input type="checkbox"><label>Database</label></td> -->
                     </tr>
                     <tr>
                         <td><label>Profile</label></td>
@@ -104,8 +133,9 @@
                         <td><input type="reset"></td>
                     </tr>
                 </tbody>
-            </fieldset>
-            </table>
-        </form>
-    </body>
+        </fieldset>
+        </table>
+    </form>
+</body>
+
 </html>
